@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  max-width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 4px orange;
+  padding: 20px 0;
+}
+
+.first_half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+
+.section_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.one {
+  border-bottom: solid 4px orange;
+}
+
+.three {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.topic_container {
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  background: #32aada;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.activity_container {
+  height: 200px;
+  width: 100%;
+  margin: 0 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.activity_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+}
+
+.text_bar_container {
+  width: 100%;
+}
+
+.expl_text {
+  font-size: smaller;
+  padding: 5px 5px;
+  width: 90%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.bar_line {
+  width: 90%;
+  border: solid 1px gray;
+  height: 20px;
+  margin: 5px;
+  background: orange;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  border-top: solid 4px orange;
+  border-bottom: solid 4px orange;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+/* MEDIA QUERIES */
+/*jautājums-> kā padarīt mainīgu ikonas lielumu?  */
+@media only screen and (max-width: 1050px) {
+  .two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body {
+    margin: 0 40px;
+  }
+  .activity_container {
+    margin: 20px 0;
+    height: 300px;
+  }
+  .activity_icon {
+    font-size: 90px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
